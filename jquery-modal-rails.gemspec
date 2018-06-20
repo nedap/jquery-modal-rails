@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib".freeze]
   s.authors = ["Dominik Fijas".freeze]
   s.date = "2018-06-20"
-  s.description = "TODO: longer description of your gem".freeze
+  s.description = "jQuery modal for Rails forked from https://github.com/dei79/jquery-modal-rails".freeze
   s.email = "dominik.fijas@nedap.com".freeze
   s.extra_rdoc_files = [
     "LICENSE",
@@ -44,7 +44,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/nedap/jquery-modal-rails".freeze
   s.licenses = ["MIT".freeze]
   s.rubygems_version = "2.6.12".freeze
-  s.summary = "TODO: one-line summary of your gem".freeze
+  s.summary = "jQuery modal for Rails".freeze
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

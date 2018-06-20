@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "jquery-modal-rails"
   gem.homepage = "http://github.com/nedap/jquery-modal-rails"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{jQuery modal for Rails}
+  gem.description = %Q{jQuery modal for Rails forked from https://github.com/dei79/jquery-modal-rails}
   gem.email = "dominik.fijas@nedap.com"
   gem.authors = ["Dominik Fijas"]
   # dependencies defined in Gemfile
