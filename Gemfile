@@ -1,13 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
-
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'sqlite3'
-
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -24,10 +16,12 @@ end
 
 gem 'jquery-rails'
 
-# Specify your gem's dependencies in jquery-modal-rails.gemspec
-gemspec
+group :test do
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'shoulda', :require => false
+end
 
-# add rspec
-gem 'rspec'
-gem 'rspec-rails'
-gem 'shoulda', :require => false
+group :development do
+  gem 'jeweler'
+end
