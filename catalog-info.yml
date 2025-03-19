@@ -1,0 +1,10 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  title: jQuery modal for Rails
+  name: jquery-modal-rails
+spec:
+  type: library
+  owner: group:healthcare-developers-platform
+  lifecycle: production
